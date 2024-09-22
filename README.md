@@ -13,7 +13,7 @@ Passionate about developing AI-driven web applications and exploring the world o
 Computer Vision, Natural Language Processing (NLP), and Model Optimization for real-world AI applications.
 
 💼 Portfolio:
-Check out my latest projects and accomplishments here: amitlinks.vercel.app
+Check out my latest projects and accomplishments here: https://amitlinks.vercel.app
 
 💬 Ask Me About:
 Anything related to AI/ML, React, Tailwind CSS, HTML5, and CSS3.
