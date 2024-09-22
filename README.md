@@ -13,7 +13,7 @@
 
 - 🤝 I’m looking for help with **MERN Stack**
 
-- 👨‍💻 All of my projects are available at [https://amitkumar2308.github.io/portfolio-amit/](https://amitkumar2308.github.io/portfolio-amit/)
+- 👨‍💻 All of my projects are available at [https://amitkumar2308.github.io/portfolio-amit/](amitlinks.vercel.app)
 
 - 💬 Ask me about **react , Tailwind ,HTML , CSS**
 
