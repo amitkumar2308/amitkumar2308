@@ -36,19 +36,19 @@ This repo: [LeetCode Practice](https://github.com/amitkumar2308/LeetCode-Practic
 
 ## 🏗️ Featured Projects (Real-World Problem Solving)
 
-### [Connx.in](#)  
+### [Connx.in](https://connx.in)  
 A platform for **new freelancers** to connect with potential clients & mentors, solving the **"how to get first projects"** problem.  
 *Tech:* React, Node.js, MongoDB.
 
 ---
 
-### [Campus Reveal](#)  
+### [Campus Reveal](https://campusreveal.vercel.app)  
 An anonymous review-sharing platform where **students share honest college reviews** without revealing identity.  
 *Tech:* Next.js, Tailwind, Firebase.
 
 ---
 
-### [AnnouncePro](#)  
+### [AnnouncePro](https://campusreveal.vercel.app)  
 Developed during an internship to help universities **schedule & trigger announcements** (solving a real problem: no proper scheduling system for announcements).  
 *Tech:* MERN Stack, Cron Jobs, Webhooks.
 
