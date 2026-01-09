@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70a5fd&center=true&vCenter=true&width=800&lines=Full+Stack+Developer+%7C+MERN+%26+Python;Building+Scalable+SaaS+Solutions;Data+Structures+%26+Algorithms+Enthusiast;Open+to+SDE+Roles" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70a5fd&center=true&vCenter=true&width=900&lines=Backend+Engineer+%7C+Distributed+Systems+Enthusiast;C%2B%2B+%7C+Node.js+%7C+Python;Concurrency%2C+Caching%2C+System+Design;Open+to+SDE+%2F+Backend+Roles" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -17,67 +17,103 @@
   </a>
 </div>
 
-<br />
+---
 
 ## 👨‍💻 About Me
 
-I am a **Software Engineer** specializing in the **MERN Stack** and **Python**, with a focus on building scalable web applications and optimizing backend performance. I combine technical expertise in system architecture with a product-first mindset to solve real-world problems.
+I am a **Backend Engineer** with a strong interest in **system design, concurrency, and scalable backend architecture**.  
+I enjoy building low-level systems to understand how real production services work under load.
 
-* 🔭 **Current Focus:** Developing high-performance full-stack applications with AI integration.
-* 🧠 **Problem Solving:** Active LeetCode solver (Data Structures & Algorithms).
-* 🤝 **Goal:** Seeking a Software Development Engineer (SDE) role to contribute to production-level engineering teams.
-
----
-
-## 🛠️ Technical Arsenal
-
-| **Domain** | **Technologies** |
-| :--- | :--- |
-| **Frontend** | React.js, Next.js, Tailwind CSS, Redux, HTML5, CSS3 |
-| **Backend** | Node.js, Express.js, Python, RESTful APIs, Webhooks |
-| **Databases** | MongoDB, PostgreSQL, Firebase, Redis |
-| **AI & ML** | TensorFlow, PyTorch, Python Data Stack (Pandas/NumPy) |
-| **DevOps & Tools** | Git, Docker, AWS (Basic), Postman, Vercel |
+- 🔭 **Current Focus:** Backend systems, caching, concurrency, and performance optimization  
+- 🧠 **Problem Solving:** Strong foundation in **Data Structures & Algorithms (LeetCode)**  
+- ⚙️ **Mindset:** Think in terms of **latency, throughput, consistency, and fault tolerance**  
+- 🤝 **Goal:** Software Development Engineer (SDE / Backend) role on a production engineering team  
 
 ---
 
-## 🚀 Featured Engineering Projects
+## 🧰 Backend Technical Stack
 
-### 1. [Connx.in](https://connx.in)
-**Freelancer Marketplace & Mentorship Platform**
-* **The Challenge:** New freelancers struggle to gain credibility and secure initial clients.
-* **The Solution:** Engineered a verified connecting platform bridging talent with mentors and clients.
-* **Tech Stack:** React, Node.js, Express, MongoDB.
+| **Area** | **Technologies** |
+|--------|------------------|
+| **Languages** | C++, JavaScript (Node.js), Python |
+| **Backend** | Node.js, Express.js, REST APIs |
+| **Systems** | Multithreading, Mutex, Condition Variables |
+| **Databases** | MongoDB, PostgreSQL |
+| **Caching** | Redis, In-memory Stores |
+| **Concurrency** | Thread Pools, Producer–Consumer |
+| **Dev Tools** | Git, Linux, MSYS2, MinGW |
+| **Testing** | Stress Testing, Load Simulation |
 
-### 2. [Campus Reveal](https://campusreveal.vercel.app)
-**Anonymous University Review System**
-* **The Challenge:** Students lacked a safe space to share honest feedback without fear of repercussion.
-* **The Solution:** Built a secure, anonymous review aggregation platform with spam protection.
-* **Tech Stack:** Next.js, Tailwind CSS, Firebase.
-
-### 3. [Announce Pro](https://announcepro.vercel.app)
-**Automated Announcement Scheduler**
-* **The Challenge:** University admin tasks were manual and prone to human error/delays.
-* **The Solution:** Developed a cron-job based scheduling system to automate triggers and notifications.
-* **Tech Stack:** MERN Stack, Node-Cron, Webhooks.
 ---
 
-## 📈 Performance Metrics
+## 🚀 Backend Engineering Projects
+
+### 🔹 Redis-Lite (C++)
+**Redis-inspired In-Memory Key-Value Store**
+
+- Designed a **single-threaded command execution model** inspired by Redis
+- Implemented **producer–consumer architecture** using:
+  - `std::thread`
+  - `std::mutex`
+  - `std::condition_variable`
+- Multiple client threads enqueue commands (`SET`, `GET`, `DEL`)
+- A dedicated worker thread processes commands **serially**
+- `GET` implemented using **std::promise / std::future**
+- Stress-tested with **10,000 concurrent requests**
+- Built and tested on **Windows (MSYS2 + MinGW)**
+
+**Concepts:**  
+`Concurrency` · `Thread Safety` · `Command Queue` · `In-Memory Cache` · `System Design`
+
+---
+
+### 🔹 Announce Pro (Backend-heavy MERN)
+**Automated Announcement Scheduling System**
+
+- Built backend services to schedule and trigger announcements
+- Implemented **cron-based background jobs**
+- Designed REST APIs for scheduling, execution, and status tracking
+- Focused on **reliability and idempotent execution**
+
+**Concepts:**  
+`Background Jobs` · `Scheduling` · `API Design`
+
+---
+
+### 🔹 Campus Reveal
+**Anonymous Review Platform (Backend Focus)**
+
+- Designed backend to handle anonymous submissions safely
+- Implemented spam protection and rate limiting
+- Focused on **data integrity and abuse prevention**
+
+---
+
+## 📊 Performance & Problem Solving
 
 <div align="center">
   <img src="https://leetcard.jacoblin.cool/amitk2308?theme=tokyonight&font=JetBrains%20Mono&ext=heatmap" alt="LeetCode Stats" />
 </div>
 
-<br />
-
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=amitkumar2308&theme=tokyonight&hide_border=true" alt="Streak Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=amitkumar2308&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=amitkumar2308&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=amitkumar2308&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
 </div>
 
 ---
 
+## 🧠 Engineering Philosophy
+
+> “I prefer understanding how systems work internally —  
+> before scaling them externally.”
+
+- Optimize **correctness before performance**
+- Prefer **simple, predictable designs**
+- Learn by building **from scratch**
+
+---
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=amitkumar2308&label=Profile+Views&color=70a5fd&style=flat-square" alt="Profile Views" />
-  <p><i>Building software that matters.</i></p>
+  <img src="https://komarev.com/ghpvc/?username=amitkumar2308&label=Profile+Views&color=70a5fd&style=flat-square" />
+  <p><i>Backend first. Systems always.</i></p>
 </div>
